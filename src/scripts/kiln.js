@@ -9,3 +9,4 @@ export const firePottery = (potteryToFire, temp) => {
     }
     return firedPottery
 }
+

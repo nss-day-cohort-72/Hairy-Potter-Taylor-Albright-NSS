@@ -26,8 +26,7 @@ let pricedPot = toSellOrNotToSell(firedPot)
 let pricedJug = toSellOrNotToSell(firedJug)
 
 //HTML display
-const displayPottery = PotteryList()
 const potteryList = document.querySelector('.potteryList')
+const displayPottery = PotteryList()
 potteryList.innerHTML = `${displayPottery}`
-
 
