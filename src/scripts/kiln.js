@@ -6,6 +6,5 @@ export const firePottery = (potteryToFire, temp) => {
     } else {
         firedPottery.cracked = false
     }
-    console.log(firedPottery)
     return firedPottery
 }
