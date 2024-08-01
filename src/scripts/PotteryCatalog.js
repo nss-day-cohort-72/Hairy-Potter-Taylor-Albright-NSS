@@ -1,7 +1,7 @@
 let potteryToSell = []
-
 export const toSellOrNotToSell = (potteryToTest) => {
-    let pricedPottery = {...potteryToTest}
+    //creating a copy of the pottery as to not modify the original
+    let pricedPottery = potteryToTest
     if (pricedPottery.weight >= 6) {
         pricedPottery.price = 40
     } else if (pricedPottery.weight < 6) {
@@ -12,7 +12,6 @@ export const toSellOrNotToSell = (potteryToTest) => {
     }
     return pricedPottery
 }
-
 export const usePottery = () => {
     let mapPottery = potteryToSell.map(item => item)
     return mapPottery
