@@ -129,7 +129,7 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
    > Having makePottery in its own module helps keep things easy to read and maintain by not mixing in other functions that have different functionality which helps keep in line with Separation of Concerns.
 
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > I would now have to change the conditional in the toSellOrNotToSell function by removing the if statement if (!pricedPottery.cracked) {...} so that a price property and value is added to the cracked pottery object and is also pushed into the potteryToSell array so that it can be displayed along with the uncracked pottery.
+   > I would now have to change the conditional in the toSellOrNotToSell function by removing the if statement if (!pricedPottery.cracked) {} so that a price property and value is added to the cracked pottery object and is also pushed into the potteryToSell array so that it can be displayed along with the uncracked pottery.
 
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
    > [Paste your video's public URL here](https://www.loom.com/share/d58ccc1952e8459f931833cea35d46ef)
